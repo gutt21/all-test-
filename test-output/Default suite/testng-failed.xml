@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="windowsdemo.windowstest3">
+      <class name="daraprovide.datademo">
         <methods>
-          <include name="test1"/>
+          <include name="test1" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- windowsdemo.windowstest3 -->
+      </class> <!-- daraprovide.datademo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

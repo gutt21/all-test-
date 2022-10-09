@@ -4,14 +4,14 @@
 	<test name="Test1">
 	<parameter name="akash" value="akash guttedar boy"/>
 		<classes>
-			<class name="alldemo2.parameter">
+			<class name="alldemo.parameter">
 			</class>
 		</classes>
 	</test>	
 	<test name="Test2">
 	<parameter name="akash" value="akash guttedar"/>
 		<classes>
-			<class name="alldemo2.parameter">
+			<class name="alldemo.parameter">
 			</class>
 		</classes>
 	</test>

@@ -24,6 +24,7 @@ public class frametest1 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.findElement(By.id("name")).sendKeys("java");
 		driver.switchTo().frame("frm1");
+		
 		WebElement ag=driver.findElement(By.id("course"));
 		//driver.findElement(By.xpath("//option[@value='java']")).click();
 		Select akash=new Select(ag);

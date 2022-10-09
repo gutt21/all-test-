@@ -13,7 +13,7 @@ public class datademo3 {
 
 
 	
-	@Test
+	@Test()
 	public void test1() {
 		System.out.println("test"+Thread.currentThread().getId());
 	}
