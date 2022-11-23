@@ -23,7 +23,7 @@ public class datareadformulinexcel {
 				XSSFCell cells=row.getCell(j);
 				
 				switch(cells.getCellType()) {
-				
+			
 				case STRING:
 					System.out.print(cells.getStringCellValue());
 					break;

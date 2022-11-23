@@ -4,10 +4,12 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 
+import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.xwpf.usermodel.ICell;
 
 public class excelupateatawriteon_excel2_arraylist {
 
@@ -38,7 +40,7 @@ public class excelupateatawriteon_excel2_arraylist {
 					clles.setCellValue((Integer)value);
 				if(value instanceof Boolean)
 					clles.setCellValue((Integer)value);
-				
+			
 				
 			}
 			

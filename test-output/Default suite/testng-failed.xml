@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="daraprovide.datademo">
+      <class name="exce_anil_demo.Excel_anil_demo">
         <methods>
-          <include name="test1" invocation-numbers="0 1"/>
+          <include name="get_excel"/>
         </methods>
-      </class> <!-- daraprovide.datademo -->
+      </class> <!-- exce_anil_demo.Excel_anil_demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

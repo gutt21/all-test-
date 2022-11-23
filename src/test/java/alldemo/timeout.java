@@ -9,9 +9,6 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class timeout {
-
-	
-	
 	@Test(timeOut = 9000)
 	public void test1() {
 		WebDriverManager.chromedriver().setup();
